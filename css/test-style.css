@@ -120,7 +120,7 @@ p {
   position: absolute;
   content: "";
   background-color: #fffc00;
-  background-image: url(img/star.svg);
+  background-image: url(../img/test/star.svg);
   background-repeat: no-repeat;
   border-radius: 50%;
   -webkit-box-shadow: 3px 0 #ff8300;
@@ -142,7 +142,7 @@ p {
   width: 38px;
   height: 38px;
   background-color: #9d2aff;
-  background-image: url(img/bolt.svg);
+  background-image: url(../img/test/bolt.svg);
   background-repeat: no-repeat;
   background-position: 7px 5px;
   background-size: 27px 27px;
@@ -158,7 +158,7 @@ p {
   width: 38px;
   height: 38px;
   background-color: #3f77eb;
-  background-image: url(img/rocket.svg);
+  background-image: url(../img/test/rocket.svg);
   background-repeat: no-repeat;
   background-position: 5px 6px;
   background-size: 27px 27px;
@@ -987,7 +987,7 @@ p {
 }
 .modal-hint__header {
   position: relative;
-  background-image: url(img/bg-hint.png);
+  background-image: url(../img/test/bg-hint.png);
   background-repeat: no-repeat;
 }
 .modal-hint__header-title {
@@ -1209,6 +1209,26 @@ p {
   -webkit-transform: translateX(-2000px);
   -ms-transform: translateX(-2000px);
   transform: translateX(-2000px);
+}
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+}
+@keyframes scroll {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
 }
 .animation-bar {
   -webkit-animation-name: scroll;
