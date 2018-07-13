@@ -116,8 +116,7 @@ btn.addEventListener('click', function() {
 			rotateContent.style.transform = 'rotate(90deg)';
 			rotateContent.classList.add('hidden');
 			abcHint.classList.remove('hidden');
-			btn.disabled = true;
-			//btnOverlay.classList.remove('hidden');
+			btnOverlay.classList.remove('hidden');
 			hintContent.textContent = 'сверху-вниз';
 			styleNextTimer(b);
 			stopTimer(b);
@@ -240,7 +239,7 @@ abcHintOk.addEventListener('click', function() {
 /*----------------------btnResult---------------------------------------------*/
 btnResult.addEventListener('click', function() {
 	if (a==3) {
-		location.replace('https://sergeyzet.github.io/ufo/');
+		location.replace('test_code/ball.html');
 	} else {
 		testResult.classList.add('hidden');
 		startScreen.classList.remove('hidden');
