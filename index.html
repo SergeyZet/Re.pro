@@ -65,7 +65,7 @@
 				<div class="index-header__content-text">
 					<p class="index-header__content-text--top">Выходи на<br> космическую<br> скорость чтения!</p>
 					<p class="index-header__content-text--bot">с тренажёрами <span>readium.pro</span></p>
-					<a href="https://sergeyzet.github.io/tests/test_code/test-timer.html" class="index-header__content-text-link">Начать заниматься!</a>
+					<a href="test_code/test-timer.html" class="index-header__content-text-link">Начать заниматься!</a>
 				</div>
 				<div class="animation">
 					
@@ -235,7 +235,7 @@
 					<div class="advantage-lessons__promo-wrap">
 						<img src="img/land/promo-rocket.svg" width="265" height="285" alt="Rocket">
 						<p class="advantage-lessons__promo-content">Пройди<br> первые 5 уроков <span>совершенно бесплатно</span></p>
-						<a href="https://sergeyzet.github.io/tests/test_code/test-timer.html" class="advantage-lessons__promo-link">Пройти</a>
+						<a href="test_code/test-timer.html" class="advantage-lessons__promo-link">Пройти</a>
 					</div>
 				</div>
 			</div>
@@ -266,7 +266,7 @@
 						<h3 class="our-program__item-title our-program__item-title--pur">память</h3>
 					</div>
 				</div>
-				<a href="https://sergeyzet.github.io/tests/test_code/test-timer.html" class="our-program__link">начать заниматься</a>
+				<a href="test_code/test-timer.html" class="our-program__link">начать заниматься</a>
 			</div>
 		</div>
 
@@ -308,15 +308,15 @@
 
 				<form class="feedback-write-to" action="#" method="post">
 					<div class="feedback-write-to__user feedback-write-to__user--name">
-						<input type="text" name="name" id="name" placeholder="Ваше имя">
+						<input type="text" name="name" id="name-email" placeholder="Ваше имя">
 					</div>
 					<div class="feedback-write-to__user feedback-write-to__user--phone">
-						<input type="tel" name="phone" id="phone" placeholder="Телефон">
+						<input type="tel" name="phone" id="phone-email" placeholder="Телефон">
 					</div>
 					<div class="feedback-write-to__user feedback-write-to__user--email">
-						<input type="email" name="e-mail" id="e-mail" placeholder="Электронная почта">
+						<input type="email" name="e-mail" id="e-mail-email" placeholder="Электронная почта">
 					</div>
-					<textarea name="coment" id="coment" cols="1" rows="10" placeholder="Задайте здесь ваш вопрос"></textarea>
+					<textarea name="coment" id="coment-email" cols="1" rows="10" placeholder="Задайте здесь ваш вопрос"></textarea>
 					<button class="feedback-write-to__sub btn" type="submit" id="button-email">Отправить</button>
 				</form>
 			</div>
@@ -372,12 +372,12 @@
 			</div>
 			<label for="user-name">Как вас зовут?</label>
 			<input id="user-name" type="text" placeholder="Ваше имя">
-			<label for="e-mail">Введите адрес электронной почты</label>
-			<input id="e-mail" type="email" placeholder="Ваш E-mail">
-			<label for="password">Придумайте пароль</label>
-			<input id="password" type="text" placeholder="Пароль">
-			<label for="password2">Повторите пароль</label>
-			<input id="password2" type="text" placeholder="Пароль">
+			<label for="user-e-mail">Введите адрес электронной почты</label>
+			<input id="user-e-mail" type="email" placeholder="Ваш E-mail">
+			<label for="user-password">Придумайте пароль</label>
+			<input id="user-password" type="text" placeholder="Пароль">
+			<label for="user-password2">Повторите пароль</label>
+			<input id="user-password2" type="text" placeholder="Пароль">
 			<div class="offer">
 				<input type="checkbox" name="notice" id="notice" checked>
 				<label for="notice">
@@ -391,7 +391,7 @@
 				</label>
 				
 			</div>
-			<button class="push-form" type="submit">Зарегистрироваться</button>
+			<button id="button-register" class="push-form" type="submit">Зарегистрироваться</button>
 		</form>
 		<a class="go-login-form" href="#">Уменя есть аккаунт</a>
 		<a class="active-promo-code" href="#">У меня есть код приглашения</a>
